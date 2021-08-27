@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace usagi.ItemServiceTests
+namespace Usagi.ItemServiceTests
 {
     public class Tests
     {
