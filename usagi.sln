@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.ItemService", "usagi\Usagi.ItemService.csproj", "{BF618AF5-D467-4719-929C-C190F38AD8EA}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.ItemServiceTests", "usagi.ItemServiceTests\Usagi.ItemServiceTests.csproj", "{4CDE0E75-4C33-47A2-A29B-537EA98D4D7C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.LocationService.Tests", "Usagi.LocationService.Tests\Usagi.LocationService.Tests.csproj", "{CB382ADC-7AEC-413C-90F4-A6E911821218}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.LocationService", "Usagi.LocationService\Usagi.LocationService.csproj", "{8B1305F4-6F2A-4570-9FCC-CCFAE4095E28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.ConsoleApp", "Usagi.Console\Usagi.ConsoleApp.csproj", "{567A282E-62EF-48A2-9291-25A1F41184C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.ItemService", "Usagi.ItemService\Usagi.ItemService.csproj", "{F2B892ED-3E0C-4B60-A92F-800370CEF5D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Usagi.ConsoleApp", "Usagi.ConsoleApp\Usagi.ConsoleApp.csproj", "{CC7B6062-8AB0-46D2-AB6E-2C46D2D73F2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF618AF5-D467-4719-929C-C190F38AD8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF618AF5-D467-4719-929C-C190F38AD8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF618AF5-D467-4719-929C-C190F38AD8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF618AF5-D467-4719-929C-C190F38AD8EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4CDE0E75-4C33-47A2-A29B-537EA98D4D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CDE0E75-4C33-47A2-A29B-537EA98D4D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CDE0E75-4C33-47A2-A29B-537EA98D4D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,10 +31,14 @@ Global
 		{8B1305F4-6F2A-4570-9FCC-CCFAE4095E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B1305F4-6F2A-4570-9FCC-CCFAE4095E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B1305F4-6F2A-4570-9FCC-CCFAE4095E28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{567A282E-62EF-48A2-9291-25A1F41184C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{567A282E-62EF-48A2-9291-25A1F41184C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{567A282E-62EF-48A2-9291-25A1F41184C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{567A282E-62EF-48A2-9291-25A1F41184C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B892ED-3E0C-4B60-A92F-800370CEF5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B892ED-3E0C-4B60-A92F-800370CEF5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B892ED-3E0C-4B60-A92F-800370CEF5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B892ED-3E0C-4B60-A92F-800370CEF5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7B6062-8AB0-46D2-AB6E-2C46D2D73F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7B6062-8AB0-46D2-AB6E-2C46D2D73F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7B6062-8AB0-46D2-AB6E-2C46D2D73F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7B6062-8AB0-46D2-AB6E-2C46D2D73F2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
